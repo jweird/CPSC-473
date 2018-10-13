@@ -1,29 +1,25 @@
-.sticky{
+.sticky {
   position: fixed;
   width: 100%;
 }
 
-.pad{
+.pad {
   margin-top: 30px;
 }
 
-body{
+body {
   background: white;
   height: 1200px;
   margin: 0px;
 }
 
-
-.body{
+.body {
   font-size: 18px;
   text-align: center;
-
-
 }
 
-.announcement{
-
-  display:flex;
+.announcement {
+  display: flex;
   justify-content: center;
   height: 100%;
   text-align: center;
@@ -33,7 +29,6 @@ body{
   padding: 0;
   font-weight: bold;
   width: 100%;
-
 }
 
 .announcement a {
@@ -49,60 +44,44 @@ body{
   overflow: hidden;
   text-align: center;
   padding: 23px;
-
 }
 
 .topnav a {
-
-    float: center;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-
-
+  float: center;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
 
 .topnav a:hover {
-
-    background-color: white;
-    color: black;
-    font-weight: bold;
+  background-color: white;
+  color: black;
+  font-weight: bold;
 }
 
 .topnav img {
   float: left;
   width: 200px;
   height: 25px;
-
 }
 
-
-
-.header{
-    background-color: #ff5050;
-    padding-top: 200px;
-    padding-bottom: 50px;
-
-
+.header {
+  background-color: #ff5050;
+  padding-top: 200px;
+  padding-bottom: 50px;
 }
 
-.headertext
-{
-    font-size: 34px;
-    text-align: center;
-    color: white;
-
-
+.headertext {
+  font-size: 34px;
+  text-align: center;
+  color: white;
 }
 
-.yellow
-{
-color: yellow;
-
+.yellow {
+  color: yellow;
 }
-
 
 .card-2 {
   font-family: Arial;
@@ -113,101 +92,86 @@ color: yellow;
   padding: 15px;
   font-size: 24px;
   align-items: baseline;
-
 }
 
-.colorbox1
-{
-background-color: #487ec0;
-border-radius: 10px;
-font-family: Arial;
-color: white;
-text-align: left;
-width: 300px;
-padding: 15px;
-font-size: 24px;
-
-
+.colorbox1 {
+  background-color: #487ec0;
+  border-radius: 10px;
+  font-family: Arial;
+  color: white;
+  text-align: left;
+  width: 300px;
+  padding: 15px;
+  font-size: 24px;
 }
 
-.colorbox2
-{
-background-color: #134b91;
-border-radius: 10px;
-font-family: Arial;
-color: white;
-text-align: left;
-width: 300px;
-padding: 15px;
-font-size: 24px;
+.colorbox2 {
+  background-color: #134b91;
+  border-radius: 10px;
+  font-family: Arial;
+  color: white;
+  text-align: left;
+  width: 300px;
+  padding: 15px;
+  font-size: 24px;
 }
 
-.colorbox3
-{
-background-color: #2c2c2c;
-border-radius: 10px;
-font-family: Arial;
-color: white;
-text-align: left;
-width: 300px;
-padding: 15px;
-font-size: 24px;
-
-
+.colorbox3 {
+  background-color: #2c2c2c;
+  border-radius: 10px;
+  font-family: Arial;
+  color: white;
+  text-align: left;
+  width: 300px;
+  padding: 15px;
+  font-size: 24px;
 }
 
 .button {
-    background-color: rgba(255, 255, 255, 0.6);
-    border: none;
-    border-radius: 5px;
-    width: 100%;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.6);
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
 }
 
-.button:hover{
+.button:hover {
   background-color: white;
-  color: black ;
-
+  color: black;
 }
 
-.card-2 ul{
-
-    list-style: none;
-    margin-left: 0;
-     padding-left: 1em;
-     text-indent: -1em;
+.card-2 ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 1em;
+  text-indent: -1em;
 }
-
 
 .card-2 ul li:before {
   content: '✓';
-
 }
 
-.flexcol{
-display: inline;
-justify-content: center;
-flex-direction: column;
-align-content: center;
-
+.flexcol {
+  display: inline;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
 }
 
-.flexrow{
-display: flex;
-justify-content: center;
-flex-direction: row;
-
+.flexrow {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
 }
 
 .card {
-
   background-color: lightgrey;
   border-radius: 3px;
   font-family: Arial;
@@ -217,13 +181,9 @@ flex-direction: row;
   margin: 10px;
   padding: 45px;
   font-size: 16px;
-
-
-
-
 }
 
-.card-3{
+.card-3 {
   background-color: white;
   border-radius: 3px;
   font-family: Arial;
@@ -234,48 +194,43 @@ flex-direction: row;
   padding-left: 100px;
   padding-right: 100px;
   font-size: 11px;
-
-
 }
 
-.flexrowLeft{
-display: flex;
-justify-content: left;
-flex-direction: row;
-padding-left: 345px
+.flexrowLeft {
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+  padding-left: 345px
 }
 
-.FAQ{
-display: flex;
-justify-content: left;
-flex-direction: row;
-color: blue;
-padding-left: 345px;
-padding-bottom: 200px;
-text-align: left;
-
+.FAQ {
+  display: flex;
+  justify-content: left;
+  flex-direction: row;
+  color: blue;
+  padding-left: 345px;
+  padding-bottom: 200px;
+  text-align: left;
 }
 
-.FAQ ul{
-list-style: none;
+.FAQ ul {
+  list-style: none;
 }
 
-.FAQ ul li{
-
-margin: 25px;
-
+.FAQ ul li {
+  margin: 25px;
 }
 
-.FAQ h1{
-color: black;
-
-
+.FAQ ul li:before {
+  content: '+';
 }
 
+.FAQ h1 {
+  color: black;
+}
 
-.footer{
-
-  display:inline-block;
+.footer {
+  display: inline-block;
   height: 350px;
   text-align: left;
   width: 100%;
@@ -284,25 +239,20 @@ color: black;
   margin: 0;
   padding: 0;
   font-weight: bold;
-
 }
 
-.footer ul{
+.footer ul {
   text-align: left;
   list-style: none;
   padding: 25px;
   margin: 15px;
   color: white;
-
-
 }
 
-.footer ul li{
+.footer ul li {
   margin: 10px;
-
 }
 
-.h3{
-
+.h3 {
   text-align: left;
 }
